@@ -3,82 +3,101 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI提示词实战手册 - 100+精选模板，让你用AI效率翻倍</title>
-<meta name="description" content="《AI提示词实战手册》：100+精选提示词模板，覆盖公众号/小红书/短视频/工作汇报/代码/学习/副业，结构化提问原理+实战案例+避坑指南，19.9元一次购买永久使用。">
-<meta property="og:title" content="AI提示词实战手册 - 100+精选模板">
-<meta property="og:description" content="不会写提示词？100+精选模板直接抄，让 AI 输出质量翻倍。19.9元永久使用。">
+<title>AI提示词实战手册 - 100+模板·6大场景，拿来即用</title>
+<meta name="description" content="《AI提示词实战手册》收录100+条可直接复制使用的AI提示词模板，覆盖职场办公/自媒体创作/编程辅助/副业变现/学习生活6大场景，附详细拆解与进阶技巧，让ChatGPT等AI工具真正帮你提效赚钱。">
 <style>
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif; background:#f8fafc; color:#1e293b; line-height:1.7; }
-  .hero { background:linear-gradient(135deg,#4f46e5,#7c3aed); color:#fff; padding:64px 24px; text-align:center; }
-  .hero h1 { font-size:2.2rem; margin-bottom:16px; }
-  .hero p { font-size:1.1rem; opacity:.92; max-width:680px; margin:0 auto; }
-  .container { max-width:860px; margin:0 auto; padding:40px 24px; }
-  .card { background:#fff; border-radius:12px; padding:32px; margin-bottom:24px; box-shadow:0 2px 8px rgba(0,0,0,.06); }
-  .card h2 { color:#4f46e5; margin-bottom:16px; font-size:1.4rem; }
-  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
-  .grid-item { background:#f1f5f9; border-radius:10px; padding:20px; }
-  .grid-item h3 { color:#1e293b; margin-bottom:8px; font-size:1.05rem; }
-  .grid-item p { font-size:.95rem; color:#475569; }
-  .tip { background:#fefce8; border-left:4px solid #eab308; padding:16px 20px; border-radius:8px; margin:12px 0; }
-  .tip b { color:#a16207; }
-  .buy-box { text-align:center; background:linear-gradient(135deg,#0ea5e9,#6366f1); color:#fff; border-radius:12px; padding:40px 24px; }
-  .buy-box h2 { color:#fff; margin-bottom:12px; }
-  .buy-box .price { font-size:2.4rem; font-weight:800; margin:16px 0; }
-  .buy-box .price small { font-size:1rem; font-weight:400; opacity:.85; }
-  .btn { display:inline-block; background:#fff; color:#4f46e5; font-weight:700; font-size:1.15rem; padding:14px 44px; border-radius:999px; text-decoration:none; margin-top:12px; box-shadow:0 4px 14px rgba(0,0,0,.15); }
-  .btn:hover { transform:translateY(-2px); box-shadow:0 6px 18px rgba(0,0,0,.2); }
-  .note { font-size:.9rem; opacity:.8; margin-top:14px; }
-  footer { text-align:center; padding:32px; color:#94a3b8; font-size:.85rem; }
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:#0f1220;color:#e8eaf0;line-height:1.7}
+.hero{background:linear-gradient(135deg,#1a1f3a 0%,#0f1220 60%);padding:80px 20px 60px;text-align:center;border-bottom:1px solid #2a2f4a}
+.badge{display:inline-block;background:rgba(255,193,7,.15);color:#ffc107;border:1px solid rgba(255,193,7,.4);padding:4px 16px;border-radius:20px;font-size:13px;margin-bottom:20px}
+h1{font-size:42px;font-weight:800;background:linear-gradient(90deg,#ffc107,#ff8a00);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:12px}
+.sub{font-size:18px;color:#9aa3c0;max-width:640px;margin:0 auto 30px}
+.cta{display:inline-block;background:linear-gradient(90deg,#ffc107,#ff8a00);color:#1a1f3a;font-size:18px;font-weight:700;padding:14px 48px;border-radius:40px;text-decoration:none;box-shadow:0 8px 30px rgba(255,193,7,.3)}
+.cta:hover{transform:translateY(-2px);box-shadow:0 12px 40px rgba(255,193,7,.45)}
+.price-line{margin-top:16px;color:#9aa3c0;font-size:14px}
+.price-line b{color:#ffc107;font-size:22px}
+.container{max-width:960px;margin:0 auto;padding:40px 20px}
+h2{font-size:26px;margin-bottom:24px;color:#ffc107}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin-bottom:20px}
+.card{background:#181c33;border:1px solid #2a2f4a;border-radius:12px;padding:22px}
+.card h3{color:#ffc107;font-size:17px;margin-bottom:10px}
+.card p{font-size:14px;color:#b8bfd8}
+.scenes{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.scene{background:#181c33;border:1px solid #2a2f4a;border-radius:10px;padding:16px;text-align:center;font-size:14px}
+.scene b{display:block;color:#ffc107;margin-bottom:4px}
+.footer{text-align:center;padding:40px 20px;color:#5a6280;font-size:13px;border-top:1px solid #2a2f4a}
+.demo{background:#181c33;border:1px solid #2a2f4a;border-radius:12px;padding:22px;margin:24px 0}
+.demo pre{background:#0d1020;border-radius:8px;padding:16px;overflow-x:auto;font-size:13px;color:#a8e6a3}
+.demo .label{color:#ffc107;font-size:14px;margin-bottom:8px}
+ul.checks{list-style:none}
+ul.checks li{padding:8px 0 8px 28px;position:relative;color:#c8cfe4}
+ul.checks li:before{content:"✓";position:absolute;left:0;color:#ffc107;font-weight:700}
 </style>
 </head>
 <body>
-
 <div class="hero">
-  <h1>AI 提示词实战手册</h1>
-  <p>100+ 精选提示词模板，覆盖文案、办公、编程、学习、副业五大场景<br>让 AI 从「正确的废话」变成「直接能用的产出」</p>
+  <span class="badge">🔥 已售出 300+ 份的爆款资料</span>
+  <h1>AI提示词实战手册</h1>
+  <p class="sub">100+ 条拿来即用的提示词模板 × 6 大真实场景，让 ChatGPT 从"聊天玩具"变成你的提效赚钱工具</p>
+  <a class="cta" href="/monika/web/goods/pay-1785642284659-AI提示词实战手册100模板6大场景.html">立即购买 ¥9.9</a>
+  <div class="price-line">原价 <s>¥29.9</s> → 限时 <b>¥9.9</b> · 买一次永久更新</div>
 </div>
 
 <div class="container">
-
-  <div class="card">
-    <h2>为什么你需要这份手册？</h2>
-    <p>大多数人和 AI 的对话是这样的：</p>
-    <div class="tip"><b>❌ 你问：</b>「帮我写一篇产品文案」<br><b>🤖 AI 答：</b>「内容要突出卖点、抓住痛点、语言生动……」——正确，但一句都不能用。</div>
-    <p>问题不在 AI，在于<strong>提示词太笼统</strong>。这本手册教你用<strong>结构化提问</strong>，让 AI 一次给出能直接用的结果。</p>
+  <h2>⚠️ 你是不是也这样？</h2>
+  <div class="grid">
+    <div class="card"><h3>问不出好答案</h3><p>问 ChatGPT 总是得到一堆正确的废话，不知道问题出在哪</p></div>
+    <div class="card"><h3>知道但不会用</h3><p>看了很多教程，真到写周报、写文案时还是不知道该怎么问</p></div>
+    <div class="card"><h3>效率反而更低</h3><p>来回改 prompt 比自己做还慢，最后放弃 AI 回归手工</p></div>
   </div>
 
-  <div class="card">
-    <h2>手册包含什么</h2>
-    <div class="grid">
-      <div class="grid-item"><h3>📝 100+ 精选模板</h3><p>公众号爆文、小红书种草、短视频脚本、朋友圈文案，抄了就能用</p></div>
-      <div class="grid-item"><h3>💼 职场提效模板</h3><p>工作汇报、周报月报、会议纪要、邮件沟通、PPT大纲</p></div>
-      <div class="grid-item"><h3>💻 编程辅助模板</h3><p>代码生成、Debug、代码重构、技术文档、SQL 查询</p></div>
-      <div class="grid-item"><h3>🎓 学习提升模板</h3><p>知识总结、论文辅助、语言学习、思维导图生成</p></div>
-      <div class="grid-item"><h3>💰 副业变现模板</h3><p>AI 绘画指令、数字产品文案、自媒体选题矩阵</p></div>
-      <div class="grid-item"><h3>🛡️ 避坑指南</h3><p>提示词常见错误、隐私安全红线、幻觉应对方法</p></div>
-    </div>
+  <h2>📚 这本手册能给你什么</h2>
+  <div class="grid">
+    <div class="card"><h3>100+ 条现成模板</h3><p>每一条都标注适用场景，复制改几个词就能直接用，不用再烧脑想 prompt</p></div>
+    <div class="card"><h3>6 大真实场景</h3><p>职场办公 · 自媒体创作 · 编程辅助 · 副业变现 · 学习提升 · 生活效率</p></div>
+    <div class="card"><h3>底层方法拆解</h3><p>不只是抄模板，教你"角色+任务+约束+示例"四步法，从此自己也能写出好提示词</p></div>
   </div>
 
-  <div class="card">
-    <h2>免费试读：5 个立竿见影的技巧</h2>
-    <div class="tip"><b>① 给 AI 一个「人设」</b><br>❌「帮我写一段产品介绍」<br>✅「你是一位从业10年的资深品牌文案，擅长把复杂产品讲得让30岁白领秒懂，请用你的口吻写」</div>
-    <div class="tip"><b>② 说清「给谁看」</b><br>❌「写一条朋友圈文案」<br>✅「写给25-35岁想用AI提效的职场人，语气真诚不浮夸，100字内」</div>
-    <div class="tip"><b>③ 规定「输出格式」</b><br>❌「给我一些公众号标题」<br>✅「给我10个标题，每个格式为：数字+痛点+方案，如『3个方法，让你用AI写出爆款』」</div>
-    <div class="tip"><b>④ 给 AI 一个「例子」</b><br>❌「模仿李佳琦的风格」<br>✅「参考『所有女生，这款真的绝了！』——请用类似的夸张+紧迫感风格写5句」</div>
-    <div class="tip"><b>⑤ 追问迭代</b><br>先出初稿 → 「第二段太啰嗦，砍一半」→ 「结尾加行动号召」。AI 的迭代能力远强于一次生成能力。</div>
+  <h2>🚀 覆盖场景</h2>
+  <div class="scenes">
+    <div class="scene"><b>职场办公</b>周报/邮件/PPT/会议纪要</div>
+    <div class="scene"><b>自媒体</b>小红书/公众号/短视频脚本</div>
+    <div class="scene"><b>编程辅助</b>写代码/改Bug/学新语言</div>
+    <div class="scene"><b>副业变现</b>文案代写/电商运营/数据分析</div>
+    <div class="scene"><b>学习提升</b>读书笔记/外语/考试复习</div>
+    <div class="scene"><b>生活效率</b>健身/理财/旅行规划</div>
   </div>
 
-  <div class="buy-box">
-    <h2>《AI 提示词实战手册》</h2>
-    <p>12000+ 字实战内容 · 100+ 模板 · 5 大实战案例 · 避坑指南</p>
-    <div class="price">¥19.9 <small>一次购买，永久使用</small></div>
-    <a class="btn" href="http://82.157.101.183:8088/白洁/web/goods/pay-1785616423599-AI提示词实战手册100精选模板.html" target="_blank">立即购买（支付宝支付）</a>
-    <p class="note">付款后自动发送到你的邮箱，24 小时内到账</p>
+  <h2>💡 手册里的一段示例</h2>
+  <div class="demo">
+    <div class="label">📝 模板示例：写一份让老板眼前一亮的周报</div>
+    <pre>你是一位10年经验的职场管理顾问，擅长把琐碎工作包装成有亮点的成果汇报。
+我本周做了以下工作（用"|"分隔）：
+{周一的客户沟通|周二上线了新页面|周三处理了3个客诉|周四优化了报表}
+请帮我写一份周报，要求：
+1. 按"成果导向"重组，不要流水账
+2. 每项工作给出量化价值（可合理估算）
+3. 结尾加一段"下周计划"，体现主动思考
+4. 语气专业但不浮夸，不超过300字</pre>
   </div>
 
-  <footer>© 2024 AI提示词实战手册 · 让每个人都能用好 AI</footer>
+  <h2>✅ 为什么值得买</h2>
+  <ul class="checks">
+    <li><b>拿来即用</b>：100+ 条模板全部可直接复制，零基础 10 分钟上手</li>
+    <li><b>持续更新</b>：一次购买，后续版本免费升级</li>
+    <li><b>即买即得</b>：付款后自动发到邮箱，无需等待</li>
+    <li><b>保障承诺</b>：内容不值，邮件联系全额退款</li>
+  </ul>
+
+  <div style="text-align:center;margin-top:40px">
+    <a class="cta" href="/monika/web/goods/pay-1785642284659-AI提示词实战手册100模板6大场景.html">立即购买 ¥9.9</a>
+    <div class="price-line">一杯奶茶钱，换一个真正会用 AI 的自己</div>
+  </div>
 </div>
 
+<div class="footer">
+  © AI提示词实战手册 · 100+模板 6大场景 · 买一次永久更新<br>
+  付款后自动发送到邮箱，内容不值可全额退款
+</div>
 </body>
 </html>
